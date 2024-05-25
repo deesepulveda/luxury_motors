@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/luxury_motors/static/css/main.a09c5437.css",
+    "main.js": "/luxury_motors/static/js/main.b46d48c2.js",
+    "static/media/LM_Logo4.png": "/luxury_motors/static/media/LM_Logo4.18cb8a8a7c140cc73837.png",
+    "static/media/LM_user_icon.png": "/luxury_motors/static/media/LM_user_icon.bfb2e0c7e4034f676b71.png",
+    "index.html": "/luxury_motors/index.html",
+    "main.a09c5437.css.map": "/luxury_motors/static/css/main.a09c5437.css.map",
+    "main.b46d48c2.js.map": "/luxury_motors/static/js/main.b46d48c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a09c5437.css",
+    "static/js/main.b46d48c2.js"
+  ]
+}
