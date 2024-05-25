@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; /*Equivalent to 10px*/
+  scroll-behavior: smooth;
+  /* border: 1px solid green; */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+  background-color: #000;
+}
