@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/luxury_motors/static/css/main.a09c5437.css",
-    "main.js": "/luxury_motors/static/js/main.b46d48c2.js",
+    "main.css": "/luxury_motors/static/css/main.6b7f5bf4.css",
+    "main.js": "/luxury_motors/static/js/main.1431f1f6.js",
     "static/media/LM_Logo4.png": "/luxury_motors/static/media/LM_Logo4.18cb8a8a7c140cc73837.png",
+    "static/media/3pdesign-03soho.jpg": "/luxury_motors/static/media/3pdesign-03soho.926aee393bff9c206cd9.jpg",
+    "static/media/luxury_text.png": "/luxury_motors/static/media/luxury_text.c1cbdf7c4b6e85b0d220.png",
     "static/media/LM_user_icon.png": "/luxury_motors/static/media/LM_user_icon.bfb2e0c7e4034f676b71.png",
+    "static/media/motors_text.png": "/luxury_motors/static/media/motors_text.6fc235b6f21c9307ad86.png",
+    "static/media/subtitle_text.png": "/luxury_motors/static/media/subtitle_text.e5a8b773eea2c3a48331.png",
     "index.html": "/luxury_motors/index.html",
-    "main.a09c5437.css.map": "/luxury_motors/static/css/main.a09c5437.css.map",
-    "main.b46d48c2.js.map": "/luxury_motors/static/js/main.b46d48c2.js.map"
+    "main.6b7f5bf4.css.map": "/luxury_motors/static/css/main.6b7f5bf4.css.map",
+    "main.1431f1f6.js.map": "/luxury_motors/static/js/main.1431f1f6.js.map"
   },
   "entrypoints": [
-    "static/css/main.a09c5437.css",
-    "static/js/main.b46d48c2.js"
+    "static/css/main.6b7f5bf4.css",
+    "static/js/main.1431f1f6.js"
   ]
 }
