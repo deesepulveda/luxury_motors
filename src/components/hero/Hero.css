@@ -1,5 +1,116 @@
 .hero_container {
   width: 100vw;
   height: 100vh;
-  /* border: 1px solid red; */
+  position: relative;
+}
+
+.hero_container::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.75;
+  z-index: -1;
+}
+
+.hero_container::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../../assets/3pdesign-03soho.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center left;
+  background-attachment: fixed;
+  z-index: -2;
+}
+
+.hero_content_container {
+  width: 100%;
+  height: calc(100vh - 10rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hero_content_top {
+  width: 60%;
+}
+
+.hero_content_title_main {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.hero_content_title_main::after {
+  content: "";
+  width: 175%;
+  height: 175%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-image: url("../../assets/LM_Logo4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+  opacity: 0.4;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.hero_content_title_main > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.hero_content_title_sub {
+  width: 100%;
+  margin: 2rem auto;
+}
+
+.hero_content_title_sub > img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.hero_content_bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero_content_bottom > .btns {
+  width: 16rem;
+  height: 4rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  background-color: transparent;
+  border: none;
+  border: 0.1rem solid #fff;
+}
+
+.hero_content_bottom > .btn_tour {
+  color: #000;
+  font-weight: 900;
+  background-color: #ffffffca;
 }
