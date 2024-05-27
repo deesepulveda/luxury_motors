@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/luxury_motors/static/css/main.6b7f5bf4.css",
-    "main.js": "/luxury_motors/static/js/main.1431f1f6.js",
-    "static/media/LM_Logo4.png": "/luxury_motors/static/media/LM_Logo4.18cb8a8a7c140cc73837.png",
+    "main.css": "/luxury_motors/static/css/main.6cada180.css",
+    "main.js": "/luxury_motors/static/js/main.7f047a2a.js",
+    "static/media/LM_Logo4.png": "/luxury_motors/static/media/LM_Logo4.6f287218e084bfedfd57.png",
     "static/media/3pdesign-03soho.jpg": "/luxury_motors/static/media/3pdesign-03soho.926aee393bff9c206cd9.jpg",
-    "static/media/luxury_text.png": "/luxury_motors/static/media/luxury_text.c1cbdf7c4b6e85b0d220.png",
+    "static/media/luxury_text.png": "/luxury_motors/static/media/luxury_text.82ceceda379966a01f7c.png",
     "static/media/LM_user_icon.png": "/luxury_motors/static/media/LM_user_icon.bfb2e0c7e4034f676b71.png",
-    "static/media/motors_text.png": "/luxury_motors/static/media/motors_text.6fc235b6f21c9307ad86.png",
-    "static/media/subtitle_text.png": "/luxury_motors/static/media/subtitle_text.e5a8b773eea2c3a48331.png",
+    "static/media/motors_text.png": "/luxury_motors/static/media/motors_text.2e45a923f3f635108639.png",
     "index.html": "/luxury_motors/index.html",
-    "main.6b7f5bf4.css.map": "/luxury_motors/static/css/main.6b7f5bf4.css.map",
-    "main.1431f1f6.js.map": "/luxury_motors/static/js/main.1431f1f6.js.map"
+    "main.6cada180.css.map": "/luxury_motors/static/css/main.6cada180.css.map",
+    "main.7f047a2a.js.map": "/luxury_motors/static/js/main.7f047a2a.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b7f5bf4.css",
-    "static/js/main.1431f1f6.js"
+    "static/css/main.6cada180.css",
+    "static/js/main.7f047a2a.js"
   ]
 }
