@@ -21,8 +21,8 @@ const Hero = () => {
             </div>
           </div>
           <div className="hero_content_top_sub">
-            <p className="subtitle_text subtitle_text_top">german // luxury</p>
-            <p className="subtitle_text subtitle_text_bottom">automotive</p>
+            <p className="subtitle_text_top">german // luxury</p>
+            <p className="subtitle_text_bottom">automotive</p>
           </div>
         </div>
         <div className="hero_content_bottom">

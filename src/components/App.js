@@ -5,7 +5,14 @@ function App() {
   return (
     <div className="App">
       <Hero />
-      <div style={{ width: "100%", height: "100rem", overflowX: "hidden" }}>
+      <div
+        style={{
+          width: "100%",
+          height: "100rem",
+          overflowX: "hidden",
+          background: "#000",
+        }}
+      >
         sections
       </div>
     </div>
