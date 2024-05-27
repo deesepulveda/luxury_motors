@@ -1,11 +1,15 @@
+/* HEADER CONTAINER */
+
 .header_container {
   width: 100%;
   height: 8rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border: 1px solid green; */
+  overflow: hidden;
 }
+
+/* Header logo Box */
 
 .header_logo_box {
   width: 5rem;
@@ -22,15 +26,20 @@
   object-fit: contain;
 }
 
+/* Header Nav Box */
+
 .header_nav {
   width: auto;
   height: 100%;
   display: none;
 }
 
+/* Header User Box */
+
 .header_user_box {
   width: 5rem;
   height: 100%;
+  margin-right: 1rem;
   display: none;
 }
 
@@ -45,18 +54,18 @@
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
   }
 
   .header_nav_ul > li {
-    width: calc(100% / 4);
+    width: auto;
     list-style-type: none;
+    cursor: pointer;
   }
 
   .header_user_box {
     display: block;
-    margin-right: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,6 +91,6 @@
   }
 
   .header_nav {
-    width: 40%;
+    width: 45%;
   }
 }
