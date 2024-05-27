@@ -175,6 +175,18 @@
   background-color: transparent;
   border: none;
   border: 0.1rem solid #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+
+.hero_content_bottom > .btns:hover {
+  color: #000;
+  font-weight: 900;
+  background-color: #fff;
 }
 
 .hero_content_bottom > .btn_tour {
@@ -257,6 +269,10 @@
     -o-transform: scale(1.2);
   }
 
+  .hero_content_top_sub {
+    margin-top: -5rem;
+  }
+
   .hero_content_bottom {
     margin-top: 16rem;
   }
@@ -269,18 +285,86 @@
 
 /* Desktop Small */
 
-/* @media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1280px) {
+  .hero_content_top {
+    width: 60rem;
+    margin-top: 7rem;
+  }
 
-} */
+  .hero_content_top_title {
+    top: -10%;
+    justify-content: space-evenly;
+  }
+
+  .hero_content_top_title > img {
+    width: 38%;
+  }
+
+  .hero_content_top_sub {
+    margin-top: -9rem;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+  }
+
+  .hero_content_bottom {
+    margin-top: 10rem;
+  }
+}
 
 /* Desktop Medium */
 
-/* @media only screen and (min-width: 14400px) {
+@media only screen and (min-width: 1920px) {
+  .hero_content_top {
+    margin-top: 18rem;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+  }
 
-} */
+  .hero_content_top_sub {
+    margin-top: -10rem;
+  }
+
+  .hero_content_bottom {
+    margin-top: 17rem;
+  }
+}
 
 /* Desktop Large */
 
-/* @media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 2560px) {
+  .hero_content_top {
+    margin-top: 30rem;
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+  }
 
-} */
+  .hero_content_bottom {
+    margin-top: 27rem;
+  }
+}
+
+/* Desktop X-Large / Ultra WideScreen */
+
+@media only screen and (min-width: 3440px) {
+  .hero_content_top {
+    margin-top: 20rem;
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+  }
+
+  .hero_content_bottom {
+    margin-top: 35rem;
+  }
+}
