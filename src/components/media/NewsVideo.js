@@ -13,7 +13,11 @@ const NewsVideo = () => {
         type="video/mp4"
       ></video>
       <div className="news_video_info_container">
-        <p className="news_video_info_title">Mercedes News</p>
+        <div className="news_video_info_box">
+          <p className="news_video_info_title">Mercedes News</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <button>More Info</button>
+        </div>
       </div>
     </div>
   );
