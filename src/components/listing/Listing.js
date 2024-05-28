@@ -10,6 +10,12 @@ const Listing = () => {
         <AutoListCard />
         <AutoListCard />
         <AutoListCard />
+        <AutoListCard />
+        <AutoListCard />
+        <AutoListCard />
+        <AutoListCard />
+        <AutoListCard />
+        <AutoListCard />
       </div>
     </div>
   );

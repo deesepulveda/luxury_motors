@@ -12,6 +12,9 @@ const NewsVideo = () => {
         muted="true"
         type="video/mp4"
       ></video>
+      <div className="news_video_info_container">
+        <p className="news_video_info_title">Mercedes News</p>
+      </div>
     </div>
   );
 };
