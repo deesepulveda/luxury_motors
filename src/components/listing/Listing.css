@@ -1,0 +1,93 @@
+.listing_container {
+  width: 100%;
+  height: auto;
+  background-color: #000;
+}
+
+.filter_container {
+  width: 100%;
+  max-width: 120rem;
+  height: 15rem;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+.card_listing_container {
+  width: 100%;
+  max-width: 120rem;
+  height: 45rem;
+  margin: 0 auto;
+  padding-top: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  overflow-x: scroll;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+.card_listing_container::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+.auto_list_card_box {
+  width: auto;
+  height: auto;
+  margin-left: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auto_list_card_box_content {
+  width: 20rem;
+  height: 27rem;
+  border: 1px solid #fff;
+}
+
+/********** MEDIA QUERIES **********/
+
+/* Surface Duo */
+
+@media only screen and (min-width: 540px) {
+}
+
+/* Ipad Regular */
+
+@media only screen and (min-width: 768px) {
+}
+
+/* Ipad Air */
+
+@media only screen and (min-width: 820px) {
+}
+
+/* Surface Pro 7 */
+
+@media only screen and (min-width: 912px) {
+}
+
+/* Ipad Pro */
+
+@media only screen and (min-width: 1024px) {
+}
+
+/* Desktop Small */
+
+@media only screen and (min-width: 1280px) {
+}
+
+/* Desktop Medium */
+
+@media only screen and (min-width: 1920px) {
+}
+
+/* Desktop Large */
+
+@media only screen and (min-width: 2560px) {
+}
+
+/* Desktop X-Large / Ultra WideScreen */
+
+@media only screen and (min-width: 3440px) {
+}

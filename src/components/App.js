@@ -1,20 +1,20 @@
 import "./App.css";
 import Hero from "./hero/Hero";
+import Marketing from "./marketing/Marketing";
+import Listing from "./listing/Listing";
+import NewsVideo from "./media/NewsVideo";
+import NewsFeatured from "./media/NewsFeatured";
+import Footer from "./footer/Footer";
 
 function App() {
   return (
     <div className="App">
       <Hero />
-      <div
-        style={{
-          width: "100%",
-          height: "100rem",
-          overflowX: "hidden",
-          background: "#000",
-        }}
-      >
-        sections
-      </div>
+      <Marketing />
+      <Listing />
+      <NewsVideo />
+      <NewsFeatured />
+      <Footer />
     </div>
   );
 }
