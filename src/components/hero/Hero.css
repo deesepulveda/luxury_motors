@@ -174,7 +174,6 @@
   letter-spacing: 0.3rem;
   background-color: transparent;
   border: none;
-  border: 0.1rem solid #fff;
   cursor: pointer;
   transition: all 0.3s;
   -webkit-transition: all 0.3s;
@@ -183,16 +182,22 @@
   -o-transition: all 0.3s;
 }
 
-.hero_content_bottom > .btns:hover {
-  color: #000;
-  font-weight: 900;
-  background-color: #fff;
+.hero_content_bottom > .btn_explore {
+  border: 0.1rem solid #fff;
 }
 
 .hero_content_bottom > .btn_tour {
   color: #000;
   font-weight: 900;
-  background-color: #ffffffca;
+  background-color: #ffffffb6;
+  border: 0.1rem solid #ffffffb6;
+}
+
+.hero_content_bottom > .btns:hover {
+  color: #000;
+  font-weight: 900;
+  background-color: #fff;
+  border: 0.1rem solid #fff;
 }
 
 /********** MEDIA QUERIES **********/
