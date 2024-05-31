@@ -1,5 +1,6 @@
 import React from "react";
 import "./Marketing.css";
+import NewsLetter from "./NewsLetter";
 
 const Marketing = () => {
   return (
@@ -9,7 +10,7 @@ const Marketing = () => {
         <MarketingCard title="leasing" />
         <MarketingCard title="concierge" />
       </div>
-      <div className="marketing_newsletter_container">newsletter</div>
+      <NewsLetter />
     </div>
   );
 };

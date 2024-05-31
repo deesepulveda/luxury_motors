@@ -1,0 +1,34 @@
+.newsletter_container {
+  width: 100%;
+  height: 42rem;
+  position: relative;
+  border: 1px dotted orange;
+}
+
+.newsletter_bg_container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.newsletter_bg_container::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: -65%;
+  right: 20%;
+  background-image: url("../../assets/mercedes_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+}
