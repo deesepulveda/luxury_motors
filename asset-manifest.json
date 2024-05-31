@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/luxury_motors/static/css/main.d99c6b0d.css",
-    "main.js": "/luxury_motors/static/js/main.9584cb52.js",
+    "main.css": "/luxury_motors/static/css/main.376824af.css",
+    "main.js": "/luxury_motors/static/js/main.bfe6beb0.js",
     "static/media/Screen_Recording_20210705-234448_YouTube_Trim_Mercedes.mp4": "/luxury_motors/static/media/Screen_Recording_20210705-234448_YouTube_Trim_Mercedes.e47ece9e82ca6f414135.mp4",
     "static/media/audirs6avant.jpg": "/luxury_motors/static/media/audirs6avant.d81ff1cb799547c0969b.jpg",
+    "static/media/mercedes_bg.png": "/luxury_motors/static/media/mercedes_bg.17dceed98c69e6bd97d3.png",
     "static/media/LM_Logo4.png": "/luxury_motors/static/media/LM_Logo4.6f287218e084bfedfd57.png",
     "static/media/3pdesign-03soho.jpg": "/luxury_motors/static/media/3pdesign-03soho.926aee393bff9c206cd9.jpg",
     "static/media/luxury_text.png": "/luxury_motors/static/media/luxury_text.82ceceda379966a01f7c.png",
     "static/media/LM_user_icon.png": "/luxury_motors/static/media/LM_user_icon.bfb2e0c7e4034f676b71.png",
     "static/media/motors_text.png": "/luxury_motors/static/media/motors_text.2e45a923f3f635108639.png",
+    "static/media/instagram.png": "/luxury_motors/static/media/instagram.1003b523d4c0e9af56ba.png",
+    "static/media/twitter.png": "/luxury_motors/static/media/twitter.5419c2a27ee81cdb3af8.png",
+    "static/media/linkedin.png": "/luxury_motors/static/media/linkedin.91f8ecf8e30ee9d48dde.png",
     "index.html": "/luxury_motors/index.html",
-    "main.d99c6b0d.css.map": "/luxury_motors/static/css/main.d99c6b0d.css.map",
-    "main.9584cb52.js.map": "/luxury_motors/static/js/main.9584cb52.js.map"
+    "main.376824af.css.map": "/luxury_motors/static/css/main.376824af.css.map",
+    "main.bfe6beb0.js.map": "/luxury_motors/static/js/main.bfe6beb0.js.map"
   },
   "entrypoints": [
-    "static/css/main.d99c6b0d.css",
-    "static/js/main.9584cb52.js"
+    "static/css/main.376824af.css",
+    "static/js/main.bfe6beb0.js"
   ]
 }
