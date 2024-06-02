@@ -2,6 +2,7 @@
   width: 100%;
   height: auto;
   padding: 5rem 0;
+  position: relative;
   background-color: #000;
 }
 
@@ -10,44 +11,65 @@
   max-width: 120rem;
   height: 10rem;
   margin: 0 auto;
-  border: 1px solid red;
+  background-color: #000000ae;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  z-index: 50;
 }
 
 .card_listing_container {
   width: 100%;
   max-width: 120rem;
-  height: auto;
-  margin: 0 auto;
-  padding: 4rem 0 8rem;
+  margin-top: 4rem;
   display: flex;
-  justify-content: space-evenly;
-  align-items: start;
-  overflow-x: scroll;
-  -ms-overflow-style: none; /* Internet Explorer 10+ */
-  scrollbar-width: none; /* Firefox */
-}
-
-.card_listing_container::-webkit-scrollbar {
-  display: none; /* Safari and Chrome */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .auto_list_card_box {
   width: 100%;
-  height: auto;
-  margin-left: 4rem;
+  height: 34rem;
+  margin: 1rem auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.auto_list_card_box:last-child {
-  margin-right: 4rem;
+.auto_list_card_box_content {
+  width: 24rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.75rem;
+  border: 1px solid #fff;
 }
 
-.auto_list_card_box_content {
-  width: 20rem;
-  height: 27rem;
-  border: 1px solid #fff;
+/* TESTING STYLING */
+
+.fixed_position {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0%;
+}
+
+.testbg {
+  background-color: red;
+  opacity: 0.4;
+}
+
+.test {
+  overflow-x: scroll;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+.test::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
 }
 
 /********** MEDIA QUERIES **********/
@@ -61,27 +83,20 @@
 
 @media only screen and (min-width: 768px) {
   .card_listing_container {
-    padding: 4rem 2rem 10rem;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: start;
     align-items: center;
   }
 
   .auto_list_card_box {
-    width: calc(100% / 3);
+    width: calc((100% / 3) - 2rem);
     height: 34rem;
-    margin-left: 0;
-    padding: 1rem;
-  }
-
-  .auto_list_card_box:last-child {
-    margin-right: 0;
+    margin: 1rem;
   }
 
   .auto_list_card_box_content {
-    width: 100%;
-    height: 100%;
-    border: 1px solid #fff;
+    width: 24rem;
   }
 }
 
@@ -89,7 +104,7 @@
 
 @media only screen and (min-width: 820px) {
   .card_listing_container {
-    padding: 4rem 4rem 10rem;
+    padding: 2rem;
   }
 }
 
@@ -97,8 +112,13 @@
 
 @media only screen and (min-width: 912px) {
   .auto_list_card_box {
+    width: calc((100% / 3) - 1rem);
     height: 36rem;
-    padding: 1.5rem 2rem;
+    margin: 1rem 0.5rem;
+  }
+
+  .auto_list_card_box_content {
+    width: 26rem;
   }
 }
 
@@ -106,24 +126,34 @@
 
 @media only screen and (min-width: 1024px) {
   .card_listing_container {
-    padding: 4rem 6rem 10rem;
+    padding: 2rem 4rem;
+  }
+
+  .auto_list_card_box {
+    margin: 2rem 0.5rem;
   }
 }
 
 /* Desktop Small */
 
 @media only screen and (min-width: 1280px) {
+  .card_listing_container {
+    margin: 0 auto;
+  }
+
   .auto_list_card_box {
     width: calc(100% / 4);
+    margin: 1.75rem 0;
+  }
+
+  .auto_list_card_box_content {
+    width: 24rem;
   }
 }
 
 /* Desktop Medium */
 
 @media only screen and (min-width: 1920px) {
-  .auto_list_card_box {
-    padding: 1.5rem 1.75rem;
-  }
 }
 
 /* Desktop Large */

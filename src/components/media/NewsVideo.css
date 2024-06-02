@@ -94,6 +94,10 @@
   .news_video_container {
     height: 30rem;
   }
+
+  .news_video_info_box {
+    padding-top: 4rem;
+  }
 }
 
 /* Ipad Air */

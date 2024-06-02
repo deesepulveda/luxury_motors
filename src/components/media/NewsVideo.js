@@ -7,9 +7,9 @@ const NewsVideo = () => {
     <div className="news_video_container">
       <video
         src={TourVideo}
-        autoPlay="true"
-        loop="true"
-        muted="true"
+        autoPlay={true}
+        loop={true}
+        muted={true}
         type="video/mp4"
       ></video>
       <div className="news_video_info_container">

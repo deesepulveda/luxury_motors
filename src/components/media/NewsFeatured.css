@@ -11,6 +11,7 @@
   color: #000;
   font-size: 1.3rem;
   font-weight: 700;
+  text-shadow: 0.1rem 0.1rem 0.2rem rgba(128, 127, 127, 0.752);
 }
 
 .news_featured_title {
@@ -136,7 +137,7 @@
 }
 
 .news_social_icons:hover {
-  box-shadow: 0rem 2rem 2rem rgba(155, 152, 152, 0.744);
+  box-shadow: 0rem 2rem 2rem rgba(155, 152, 152, 0.853);
   transform: translateY(-10%);
   -webkit-transform: translateY(-10%);
   -moz-transform: translateY(-10%);
