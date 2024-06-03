@@ -1,11 +1,15 @@
 {
   "files": {
-    "main.css": "/luxury_motors/static/css/main.9931891f.css",
-    "main.js": "/luxury_motors/static/js/main.2566e185.js",
+    "main.css": "/luxury_motors/static/css/main.66cc64b4.css",
+    "main.js": "/luxury_motors/static/js/main.4b265eee.js",
     "static/media/Screen_Recording_20210705-234448_YouTube_Trim_Mercedes.mp4": "/luxury_motors/static/media/Screen_Recording_20210705-234448_YouTube_Trim_Mercedes.e47ece9e82ca6f414135.mp4",
+    "static/media/audir8greenfullback.jpg": "/luxury_motors/static/media/audir8greenfullback.ab4c1b0491e241374d0e.jpg",
     "static/media/audirs6avant.jpg": "/luxury_motors/static/media/audirs6avant.d81ff1cb799547c0969b.jpg",
     "static/media/mercedes_bg.png": "/luxury_motors/static/media/mercedes_bg.17dceed98c69e6bd97d3.png",
+    "static/media/audis3.jpg": "/luxury_motors/static/media/audis3.5a0b86f2c5f6f012083e.jpg",
     "static/media/LM_Logo4.png": "/luxury_motors/static/media/LM_Logo4.6f287218e084bfedfd57.png",
+    "static/media/audir8orange.jpg": "/luxury_motors/static/media/audir8orange.5e600e5a9439b74fca53.jpg",
+    "static/media/bmw18front.jpg": "/luxury_motors/static/media/bmw18front.d264dbecd43af9ea68db.jpg",
     "static/media/3pdesign-03soho.jpg": "/luxury_motors/static/media/3pdesign-03soho.926aee393bff9c206cd9.jpg",
     "static/media/luxury_text.png": "/luxury_motors/static/media/luxury_text.82ceceda379966a01f7c.png",
     "static/media/LM_user_icon.png": "/luxury_motors/static/media/LM_user_icon.bfb2e0c7e4034f676b71.png",
@@ -14,11 +18,11 @@
     "static/media/twitter.png": "/luxury_motors/static/media/twitter.5419c2a27ee81cdb3af8.png",
     "static/media/linkedin.png": "/luxury_motors/static/media/linkedin.91f8ecf8e30ee9d48dde.png",
     "index.html": "/luxury_motors/index.html",
-    "main.9931891f.css.map": "/luxury_motors/static/css/main.9931891f.css.map",
-    "main.2566e185.js.map": "/luxury_motors/static/js/main.2566e185.js.map"
+    "main.66cc64b4.css.map": "/luxury_motors/static/css/main.66cc64b4.css.map",
+    "main.4b265eee.js.map": "/luxury_motors/static/js/main.4b265eee.js.map"
   },
   "entrypoints": [
-    "static/css/main.9931891f.css",
-    "static/js/main.2566e185.js"
+    "static/css/main.66cc64b4.css",
+    "static/js/main.4b265eee.js"
   ]
 }
