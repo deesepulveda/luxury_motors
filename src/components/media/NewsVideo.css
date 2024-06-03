@@ -66,6 +66,7 @@
   color: #000;
   font-size: 1.05rem;
   font-weight: 700;
+  text-shadow: 0.1rem 0.1rem 0.2rem #292828c0;
   text-transform: uppercase;
   background-color: #ffffffb6;
   border: none;
@@ -78,7 +79,8 @@
 }
 
 .news_video_info_box > button:hover {
-  background-color: #fff;
+  color: #fff;
+  background-color: rgb(196, 160, 0);
 }
 
 /********** MEDIA QUERIES **********/

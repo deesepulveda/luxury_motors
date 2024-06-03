@@ -6,19 +6,26 @@ const NewsFeatured = () => {
     <div className="news_featured_container">
       <p className="news_featured_title titles">Featured News</p>
       <div className="news_featured_card_container">
-        <FeaturedCard />
-        <FeaturedCard />
-        <FeaturedCard />
+        <FeaturedCard title="citrus audi" img="audir8orange" />
+        <FeaturedCard title="bmw dominates" img="bmw18front" />
+        <FeaturedCard title="audi updates" img="audir8greenfullback" />
       </div>
       <SocialMedia />
     </div>
   );
 };
 
-const FeaturedCard = () => {
+const FeaturedCard = ({ title, img }) => {
   return (
     <div className="featured_card_box">
-      <img src={require("../../assets/audirs6avant.jpg")} alt="" />
+      <img src={require(`../../assets/${img}.jpg`)} alt="" />
+      <div className="img_overlay">
+        <p className="news_content_title">{title}</p>
+        <div className="news_content_info">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        </div>
+        <button>Read More</button>
+      </div>
     </div>
   );
 };
