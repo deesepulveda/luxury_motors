@@ -44,9 +44,7 @@ const Listing = () => {
         className={
           fixedPosition ? "filter_container testbg" : "filter_container"
         }
-      >
-        Filter Section
-      </div>
+      ></div>
       <div className="card_listing_container">
         {Array.from({ length: 13 }, (_, i) => <h1>{`Card ${i + 1}`}</h1>).map(
           (card, i) => (
