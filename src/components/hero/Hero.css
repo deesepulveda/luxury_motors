@@ -55,7 +55,6 @@
 .hero_content_bottom {
   width: 32rem;
   height: auto;
-  /* border: 1px solid green; */
 }
 
 .hero_content_top {
@@ -95,6 +94,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  -webkit-filter: drop-shadow(0.2rem 0.2rem 0.3rem #000);
+  filter: drop-shadow(0.2rem 0.2rem 0.3rem #000);
 }
 
 .hero_content_top_title > img {
@@ -113,7 +114,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid yellow; */
 }
 
 .hero_content_top_sub > p {
@@ -128,6 +128,7 @@
   position: relative;
   font-size: 1.5rem;
   letter-spacing: 0.5rem;
+  text-shadow: 0.1rem 0.1rem 0.5rem #000;
 }
 
 .subtitle_text_top::after {
@@ -149,6 +150,7 @@
   font-size: 2.3rem;
   font-weight: 500;
   letter-spacing: 0.7rem;
+  text-shadow: 0.1rem 0.1rem 0.5rem #000;
 }
 
 /* Hero Content Bottom / CTA Btns */
@@ -190,7 +192,7 @@
   color: #000;
   font-weight: 900;
   background-color: #ffffffb6;
-  border: 0.1rem solid #ffffffb6;
+  border: 0.1rem solid #ffffff2c;
 }
 
 .hero_content_bottom > .btns:hover {

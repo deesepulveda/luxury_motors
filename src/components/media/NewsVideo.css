@@ -98,6 +98,10 @@
   .news_video_info_box {
     padding-top: 4rem;
   }
+
+  .news_video_info_lorem {
+    width: 42rem;
+  }
 }
 
 /* Ipad Air */
@@ -138,6 +142,10 @@
 
   .news_video_info_box {
     padding-top: 3rem;
+  }
+
+  .news_video_info_lorem {
+    width: 56rem;
   }
 }
 

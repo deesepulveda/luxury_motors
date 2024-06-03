@@ -48,7 +48,7 @@ const Listing = () => {
         Filter Section
       </div>
       <div className="card_listing_container">
-        {Array.from({ length: 11 }, (_, i) => <h1>{`Card ${i + 1}`}</h1>).map(
+        {Array.from({ length: 13 }, (_, i) => <h1>{`Card ${i + 1}`}</h1>).map(
           (card, i) => (
             <AutoListCard key={i} title={card} />
           )
