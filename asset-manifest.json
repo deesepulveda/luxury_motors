@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/luxury_motors/static/css/main.22f320ff.css",
-    "main.js": "/luxury_motors/static/js/main.b6a7271e.js",
+    "main.css": "/luxury_motors/static/css/main.9931891f.css",
+    "main.js": "/luxury_motors/static/js/main.2566e185.js",
     "static/media/Screen_Recording_20210705-234448_YouTube_Trim_Mercedes.mp4": "/luxury_motors/static/media/Screen_Recording_20210705-234448_YouTube_Trim_Mercedes.e47ece9e82ca6f414135.mp4",
     "static/media/audirs6avant.jpg": "/luxury_motors/static/media/audirs6avant.d81ff1cb799547c0969b.jpg",
     "static/media/mercedes_bg.png": "/luxury_motors/static/media/mercedes_bg.17dceed98c69e6bd97d3.png",
@@ -14,11 +14,11 @@
     "static/media/twitter.png": "/luxury_motors/static/media/twitter.5419c2a27ee81cdb3af8.png",
     "static/media/linkedin.png": "/luxury_motors/static/media/linkedin.91f8ecf8e30ee9d48dde.png",
     "index.html": "/luxury_motors/index.html",
-    "main.22f320ff.css.map": "/luxury_motors/static/css/main.22f320ff.css.map",
-    "main.b6a7271e.js.map": "/luxury_motors/static/js/main.b6a7271e.js.map"
+    "main.9931891f.css.map": "/luxury_motors/static/css/main.9931891f.css.map",
+    "main.2566e185.js.map": "/luxury_motors/static/js/main.2566e185.js.map"
   },
   "entrypoints": [
-    "static/css/main.22f320ff.css",
-    "static/js/main.b6a7271e.js"
+    "static/css/main.9931891f.css",
+    "static/js/main.2566e185.js"
   ]
 }
