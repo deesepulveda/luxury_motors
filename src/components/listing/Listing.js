@@ -1,67 +1,88 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./Listing.css";
+import AutoListCard from "./AutoListCard";
+import { data } from "../../data/Data.js";
 
 const Listing = () => {
-  const myRef = useRef();
-  const [fixedPosition, setFixedPosition] = useState(false);
+  const [carData, setCarData] = useState(data);
 
-  useEffect(() => {
-    const observerOptions = {
-      root: null,
-      threshold: 0,
-      rootMargin: "-200px",
-    };
+  // Uniquely Set/Sort Make For Select Options
 
-    const observerFunction = function (entries) {
-      const [entry] = entries;
+  const makeArr = new Set(
+    data
+      .map((item) => {
+        return item.make;
+      })
+      .sort()
+  );
 
-      // let divTop = entry.boundingClientRect.top;
-      // console.log(divTop, entry);
+  // Filter Data by Make
 
-      if (entry.isIntersecting) {
-        setFixedPosition(true);
-      } else {
-        setFixedPosition(false);
-      }
+  const filterMake = (e) => {
+    const curVal = e.currentTarget.value;
 
-      // Stop Observer after Intersecting
-
-      // if (entry.isIntersecting) observer.unobserve(entry.target);
-    };
-
-    const observer = new IntersectionObserver(
-      observerFunction,
-      observerOptions
-    );
-
-    observer.observe(myRef.current);
-  }, []);
+    curVal !== "all"
+      ? setCarData(
+          data.filter((item) => {
+            return item.make === curVal;
+          })
+        )
+      : setCarData(data);
+  };
 
   return (
     <div className="listing_container">
-      <div
-        ref={myRef}
-        className={
-          fixedPosition ? "filter_container testbg" : "filter_container"
-        }
-      ></div>
+      <div className="filter_container">
+        <select name="make" id="" onChange={filterMake}>
+          <option value="all">all</option>
+          {Array.from(makeArr).map((item, i) => (
+            <option key={i} value={item.make}>
+              {item}
+            </option>
+          ))}
+        </select>
+      </div>
       <div className="card_listing_container">
-        {Array.from({ length: 13 }, (_, i) => <h1>{`Card ${i + 1}`}</h1>).map(
-          (card, i) => (
-            <AutoListCard key={i} title={card} />
-          )
-        )}
+        {carData.map((car, i) => (
+          <AutoListCard key={i} title={car.make} />
+        ))}
       </div>
     </div>
   );
 };
 
-const AutoListCard = ({ title }) => {
-  return (
-    <div className="auto_list_card_box">
-      <div className="auto_list_card_box_content">{title}</div>
-    </div>
-  );
-};
-
 export default Listing;
+
+// const [fixedPosition, setFixedPosition] = useState(false);
+
+// useEffect(() => {
+//   const observerOptions = {
+//     root: null,
+//     threshold: 0,
+//     rootMargin: "-200px",
+//   };
+
+//   const observerFunction = function (entries) {
+//     const [entry] = entries;
+
+//     // let divTop = entry.boundingClientRect.top;
+//     // console.log(divTop, entry);
+
+//     if (entry.isIntersecting) {
+//       setFixedPosition(true);
+//     } else {
+//       setFixedPosition(false);
+//     }
+
+//     // Stop Observer after Intersecting
+
+//     // if (entry.isIntersecting) observer.unobserve(entry.target);
+//   };
+
+//   const observer = new IntersectionObserver(
+//     observerFunction,
+//     observerOptions
+//   );
+
+//   observer.observe(myRef.current);
+// }, []);
