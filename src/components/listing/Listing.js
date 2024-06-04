@@ -33,7 +33,7 @@ const Listing = () => {
   return (
     <div className="listing_container">
       <div className="filter_container">
-        <select name="make" id="" onChange={filterMake}>
+        <select name="make" id="" onChange={filterMake} className="">
           <option value="all">all</option>
           {Array.from(makeArr).map((item, i) => (
             <option key={i} value={item.make}>
