@@ -11,7 +11,7 @@
   color: #000;
   font-size: 1.3rem;
   font-weight: 700;
-  text-shadow: 0.1rem 0.1rem 0.2rem rgba(128, 127, 127, 0.752);
+  text-shadow: 0.1rem 0.1rem 0.2rem rgba(118, 117, 117, 0.694);
 }
 
 .news_featured_title {
@@ -138,7 +138,7 @@
 .img_overlay > button {
   padding: 0.5rem 1rem;
   font-weight: 600;
-  text-shadow: 0.1rem 0.1rem 0.2rem #292828c0;
+  text-shadow: 0.1rem 0.1rem 0.2rem #585858aa;
   border: none;
   cursor: pointer;
   transition: all 0.3s;
