@@ -44,7 +44,15 @@ const Listing = () => {
       </div>
       <div className="card_listing_container">
         {carData.map((car, i) => (
-          <AutoListCard key={i} title={car.make} />
+          <AutoListCard
+            key={i}
+            carMake={car.make}
+            carModel={car.model}
+            carYear={car.year}
+            carPrice={car.price}
+            carTurbo={car.turbo}
+            carHp={car.horsepower}
+          />
         ))}
       </div>
     </div>
