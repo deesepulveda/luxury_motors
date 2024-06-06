@@ -138,6 +138,7 @@
 .img_overlay > button {
   padding: 0.5rem 1rem;
   font-weight: 600;
+  text-transform: uppercase;
   text-shadow: 0.1rem 0.1rem 0.2rem #585858aa;
   border: none;
   cursor: pointer;
@@ -146,6 +147,7 @@
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
+  background-color: #ffffffb6;
 }
 
 .img_overlay > button:hover {

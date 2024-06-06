@@ -8,6 +8,7 @@ const AutoListCard = ({
   carPrice,
   carTurbo,
   carHp,
+  carTrim,
 }) => {
   return (
     <div className="auto_list_card_box">
@@ -18,7 +19,9 @@ const AutoListCard = ({
         </div>
         <div className="auto_list_card_box_content_info">
           <div className="content_make content_info">{carMake}</div>
-          <div className="content_model content_info">{carModel}</div>
+          <div className="content_model content_info">
+            {carModel} {carTrim}
+          </div>
           <div className="content_info">{carHp}</div>
           <div className="content_info">{carTurbo}</div>
         </div>

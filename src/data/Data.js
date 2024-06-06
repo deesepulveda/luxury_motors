@@ -87,7 +87,7 @@ export const data = [
   {
     id: 6,
     make: "audi",
-    model: "a6 allroad quattro",
+    model: "a6 a/r quattro",
     trim: "prestige",
     year: 2024,
     price: "$76,000",

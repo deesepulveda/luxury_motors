@@ -1,7 +1,80 @@
 .newsletter_container {
   width: 100%;
-  height: 45rem;
+  max-width: 120rem;
+  height: 50rem;
+  margin: 0 auto;
   position: relative;
+}
+
+.newsletter_email_container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.newsletter_user,
+.newsletter_listings {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+  /* border: 1px solid red; */
+}
+
+.newsletter_user {
+  height: 8rem;
+  margin: 4rem auto 1rem;
+}
+
+.newsletter_user_input {
+  width: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+}
+
+.newsletter_user_input > input {
+  width: 77%;
+  height: 3rem;
+  background-color: transparent;
+  border: 0.1rem solid #fff;
+}
+
+.newsletter_user_input > button {
+  width: 21%;
+  height: 3rem;
+  padding: 0 0.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.658);
+  border: none;
+}
+
+.newsletter_user_input > button:hover {
+  background-color: #fff;
+}
+
+.newsletter_listings {
+  height: 7rem;
+}
+
+.card_newsletter_content_lists {
+  display: flex;
 }
 
 .newsletter_bg_container {
@@ -14,7 +87,6 @@
   right: 0;
   overflow: hidden;
   position: relative;
-  /* border: 1px dotted orange; */
 }
 
 .newsletter_bg_pattern {
@@ -35,7 +107,7 @@
   width: 100%;
   height: auto;
   position: absolute;
-  bottom: 13%;
+  bottom: 15%;
   right: -10%;
 }
 
@@ -62,6 +134,10 @@
     height: 40rem;
   }
 
+  .newsletter_user_input {
+    width: 50%;
+  }
+
   .newsletter_bg_pattern {
     width: 200%;
     height: 80%;
@@ -77,11 +153,34 @@
   .newsletter_bg_image > img {
     width: 65%;
   }
+
+  .newsletter_user,
+  .newsletter_listings {
+    width: 100%;
+    padding-left: 6rem;
+    /* border: 1px solid red; */
+  }
+
+  .newsletter_user {
+    height: 8rem;
+    margin: 4rem auto 1rem;
+  }
 }
 
 /* Ipad Air */
 
 @media only screen and (min-width: 820px) {
+  .newsletter_user {
+    height: 8rem;
+    margin: 6rem auto 1rem;
+  }
+
+  .newsletter_user,
+  .newsletter_listings {
+    width: 100%;
+    padding-left: 8rem;
+    /* border: 1px solid red; */
+  }
 }
 
 /* Surface Pro 7 */

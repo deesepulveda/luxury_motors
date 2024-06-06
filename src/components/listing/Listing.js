@@ -52,6 +52,7 @@ const Listing = () => {
             carPrice={car.price}
             carTurbo={car.turbo}
             carHp={car.horsepower}
+            carTrim={car.trim}
           />
         ))}
       </div>

@@ -21,11 +21,14 @@
 /* Select & Option Styling */
 
 .filter_container > select {
-  width: 25rem;
+  width: 24rem;
   height: 5rem;
   color: #fff;
   text-transform: uppercase;
   background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 0.1rem solid #fff;
 }
 
@@ -141,6 +144,9 @@
 /* Surface Pro 7 */
 
 @media only screen and (min-width: 912px) {
+  .filter_container > select {
+    width: 26rem;
+  }
 }
 
 /* Ipad Pro */
