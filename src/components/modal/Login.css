@@ -1,0 +1,159 @@
+.modal_login_container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.modal_login_container::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.9;
+  z-index: -1;
+}
+
+.modal_login_box {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  border: 1px solid #fff;
+}
+
+.modal_login_box > .modal_close_icon {
+  width: 100%;
+  height: 5rem;
+  padding: 0 2rem;
+  font-size: 1.75rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  cursor: pointer;
+}
+
+.modal_login_box > .modal_login_error {
+  width: 80%;
+  height: auto;
+  margin: 8rem 0;
+  padding: 0 2rem;
+  color: rgb(227, 161, 161);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.modal_login_box > .modal_login_input_boxes {
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.modal_login_input_boxes > label {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  text-align: start;
+}
+
+.modal_login_input_boxes > input {
+  width: 100%;
+  height: 5rem;
+  margin-bottom: 3rem;
+  border: 0.1rem solid #fff;
+  background-color: transparent;
+}
+
+.modal_login_input_boxes > button {
+  width: 10rem;
+  height: 4rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  font-size: 1.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+
+.modal_login_input_boxes > button:hover {
+  background-color: rgb(196, 160, 0);
+}
+
+.modal_login_input_boxes > p {
+  margin: 2rem 0 0;
+  font-size: 1.25rem;
+}
+
+.modal_login_input_boxes > p > span {
+  color: rgb(196, 160, 0);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/********** MEDIA QUERIES **********/
+
+/* Surface Duo */
+
+@media only screen and (min-width: 540px) {
+}
+
+/* Ipad Regular */
+
+@media only screen and (min-width: 768px) {
+}
+
+/* Ipad Air */
+
+@media only screen and (min-width: 820px) {
+}
+
+/* Surface Pro 7 */
+
+@media only screen and (min-width: 912px) {
+}
+
+/* Ipad Pro */
+
+@media only screen and (min-width: 1024px) {
+}
+
+/* Desktop Small */
+
+@media only screen and (min-width: 1280px) {
+}
+
+/* Desktop MacBook Pro */
+
+@media only screen and (min-width: 1440px) {
+}
+
+/* Desktop Medium */
+
+@media only screen and (min-width: 1920px) {
+}
+
+/* Desktop Large */
+
+@media only screen and (min-width: 2560px) {
+}
+
+/* Desktop X-Large / Ultra WideScreen */
+
+@media only screen and (min-width: 3440px) {
+}

@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
+import Login from "../modal/Login";
 
 const Header = () => {
+  const [showModal, setShowModal] = useState(false);
+
+  const handleModal = () => {
+    setShowModal(!showModal);
+  };
+
   return (
     <div className="header_container">
       <div className="header_logo_box">
@@ -10,9 +17,16 @@ const Header = () => {
       <div className="header_nav">
         <Nav />
       </div>
-      <div className="header_user_box">
+      <div className="header_user_box" onClick={handleModal}>
         <img src={require("../../assets/LM_user_icon.png")} alt="" />
       </div>
+      {showModal && (
+        <Login
+          setShowModal={setShowModal}
+          showModal={showModal}
+          onHandleModal={handleModal}
+        />
+      )}
     </div>
   );
 };
