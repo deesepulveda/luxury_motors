@@ -43,9 +43,9 @@ const Listing = () => {
         </select>
       </div>
       <div className="card_listing_container">
-        {carData.map((car, i) => (
+        {carData.map((car) => (
           <AutoListCard
-            key={i}
+            key={car.id}
             carMake={car.make}
             carModel={car.model}
             carYear={car.year}

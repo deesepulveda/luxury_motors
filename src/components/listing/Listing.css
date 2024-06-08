@@ -165,7 +165,11 @@
 
 @media only screen and (min-width: 1280px) {
   .filter_container {
-    padding: 1rem 5.75rem;
+    padding: 1rem 6rem;
+  }
+
+  .filter_container > select {
+    width: 24rem;
   }
 
   .card_listing_container {
