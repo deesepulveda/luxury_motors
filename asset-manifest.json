@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/luxury_motors/static/css/main.a6722c12.css",
-    "main.js": "/luxury_motors/static/js/main.e1abb8bc.js",
+    "main.css": "/luxury_motors/static/css/main.561b0387.css",
+    "main.js": "/luxury_motors/static/js/main.9e3fcae7.js",
     "static/media/Screen_Recording_20210705-234448_YouTube_Trim_Mercedes.mp4": "/luxury_motors/static/media/Screen_Recording_20210705-234448_YouTube_Trim_Mercedes.e47ece9e82ca6f414135.mp4",
     "static/media/audir8greenfullback.jpg": "/luxury_motors/static/media/audir8greenfullback.ab4c1b0491e241374d0e.jpg",
     "static/media/audirs6avant.jpg": "/luxury_motors/static/media/audirs6avant.d81ff1cb799547c0969b.jpg",
-    "static/media/audis3.jpg": "/luxury_motors/static/media/audis3.5a0b86f2c5f6f012083e.jpg",
+    "static/media/bmw.jpg": "/luxury_motors/static/media/bmw.922a8df01f58fe4687f7.jpg",
+    "static/media/audi.jpg": "/luxury_motors/static/media/audi.5a0b86f2c5f6f012083e.jpg",
     "static/media/LM_Logo4.png": "/luxury_motors/static/media/LM_Logo4.6f287218e084bfedfd57.png",
     "static/media/mercedes_wagon.png": "/luxury_motors/static/media/mercedes_wagon.98283069679ba10a5dea.png",
     "static/media/audir8orange.jpg": "/luxury_motors/static/media/audir8orange.5e600e5a9439b74fca53.jpg",
@@ -14,15 +15,17 @@
     "static/media/luxury_text.png": "/luxury_motors/static/media/luxury_text.82ceceda379966a01f7c.png",
     "static/media/LM_user_icon.png": "/luxury_motors/static/media/LM_user_icon.bfb2e0c7e4034f676b71.png",
     "static/media/motors_text.png": "/luxury_motors/static/media/motors_text.2e45a923f3f635108639.png",
+    "static/media/mercedes.jpg": "/luxury_motors/static/media/mercedes.0d8f13a677dcdc71a0d5.jpg",
     "static/media/instagram.png": "/luxury_motors/static/media/instagram.1003b523d4c0e9af56ba.png",
     "static/media/twitter.png": "/luxury_motors/static/media/twitter.5419c2a27ee81cdb3af8.png",
+    "static/media/porsche.jpg": "/luxury_motors/static/media/porsche.1720d10038b51b415b0a.jpg",
     "static/media/linkedin.png": "/luxury_motors/static/media/linkedin.91f8ecf8e30ee9d48dde.png",
     "index.html": "/luxury_motors/index.html",
-    "main.a6722c12.css.map": "/luxury_motors/static/css/main.a6722c12.css.map",
-    "main.e1abb8bc.js.map": "/luxury_motors/static/js/main.e1abb8bc.js.map"
+    "main.561b0387.css.map": "/luxury_motors/static/css/main.561b0387.css.map",
+    "main.9e3fcae7.js.map": "/luxury_motors/static/js/main.9e3fcae7.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6722c12.css",
-    "static/js/main.e1abb8bc.js"
+    "static/css/main.561b0387.css",
+    "static/js/main.9e3fcae7.js"
   ]
 }
