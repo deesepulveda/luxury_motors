@@ -61,37 +61,3 @@ const Listing = () => {
 };
 
 export default Listing;
-
-// const [fixedPosition, setFixedPosition] = useState(false);
-
-// useEffect(() => {
-//   const observerOptions = {
-//     root: null,
-//     threshold: 0,
-//     rootMargin: "-200px",
-//   };
-
-//   const observerFunction = function (entries) {
-//     const [entry] = entries;
-
-//     // let divTop = entry.boundingClientRect.top;
-//     // console.log(divTop, entry);
-
-//     if (entry.isIntersecting) {
-//       setFixedPosition(true);
-//     } else {
-//       setFixedPosition(false);
-//     }
-
-//     // Stop Observer after Intersecting
-
-//     // if (entry.isIntersecting) observer.unobserve(entry.target);
-//   };
-
-//   const observer = new IntersectionObserver(
-//     observerFunction,
-//     observerOptions
-//   );
-
-//   observer.observe(myRef.current);
-// }, []);

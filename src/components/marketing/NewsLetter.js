@@ -1,9 +1,9 @@
 import React from "react";
 import "./NewsLetter.css";
 
-const NewsLetter = () => {
+const NewsLetter = ({ newsLetterRef }) => {
   return (
-    <div className="newsletter_container">
+    <div className="newsletter_container" ref={newsLetterRef}>
       <div className="newsletter_email_container">
         <div className="newsletter_user">
           <div className="newsletter_user_label">Newsletter Sign Up</div>

@@ -15,7 +15,7 @@ const AutoListCard = ({
       <div className="auto_list_card_box_content">
         <div className="auto_list_card_box_content_year">{carYear}</div>
         <div className="auto_list_card_box_content_image">
-          <img src={require("../../assets/audis3.jpg")} alt="" />
+          <img src={require(`../../assets/${carMake}.jpg`)} alt="" />
         </div>
         <div className="auto_list_card_box_content_info">
           <div className="content_make content_info">{carMake}</div>

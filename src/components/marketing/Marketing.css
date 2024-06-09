@@ -14,6 +14,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  overflow-x: hidden;
 }
 
 .marketing_card_wrapper::after {
@@ -24,11 +25,11 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border-bottom: 0.1rem dotted #fff;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
+  border-bottom: 0.1rem dotted #fff;
 }
 
 .card_container {
@@ -39,6 +40,28 @@
   justify-content: space-evenly;
   align-items: center;
   border: 1px solid #fff;
+  transform: translateX(-500%);
+  -webkit-transform: translateX(-500%);
+  -moz-transform: translateX(-500%);
+  -ms-transform: translateX(-500%);
+  -o-transform: translateX(-500%);
+  transition: 800ms ease-in-out;
+  -webkit-transition: 800ms ease-in-out;
+  -moz-transition: 800ms ease-in-out;
+  -ms-transition: 800ms ease-in-out;
+  -o-transition: 800ms ease-in-out;
+}
+
+.card_container:nth-child(1) {
+  transition-delay: 200ms;
+}
+
+.card_container:nth-child(2) {
+  transition-delay: 500ms;
+}
+
+.card_container:nth-child(3) {
+  transition-delay: 800ms;
 }
 
 .card_title {
@@ -57,7 +80,6 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  /* border: 1px solid red; */
 }
 
 .card_marketing_content_lists {
@@ -80,6 +102,16 @@
   -o-transform: rotate(45deg);
 }
 
+/* Animations */
+
+.moveIn {
+  transform: translateX(0%);
+  -webkit-transform: translateX(0%);
+  -moz-transform: translateX(0%);
+  -ms-transform: translateX(0%);
+  -o-transform: translateX(0%);
+}
+
 /********** MEDIA QUERIES **********/
 
 /* Surface Duo */
@@ -99,6 +131,18 @@
 
   .marketing_card_wrapper::after {
     width: 95%;
+  }
+
+  .card_container:nth-child(1) {
+    transition-delay: 1200ms;
+  }
+
+  .card_container:nth-child(2) {
+    transition-delay: 900ms;
+  }
+
+  .card_container:nth-child(3) {
+    transition-delay: 600ms;
   }
 }
 
